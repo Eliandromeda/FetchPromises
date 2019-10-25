@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <h1>CRUD JS</h1>
+    <div class="content">
+        <div class="search">
+            <label id="search" for="">favorite</label>
+            <input id="favorite" type="text" placeholder="search element">
+            <button id="btnGetAll">Get all</button>
+            <button id="btnsearch">Search</button>
+            <button id="btnnew">New</button>
+            <button id="btndelete">Delete</button>
+        </div>
+        <div id="result">
+        </div>
+        <div id="descrinew" class="description">
+            <label id="lblid" for=""></label></br>
+            <label id="lblimage" for=""></label></br>
+            <label id="lblsub" for=""></label></br>
+            <label id="lbluserid" for=""></label>
+        </div>
+    </div>
+    <div id="divadd" class="addnew" style="display: none">
+        <label for="">image_id</label>
+        <input id="inputid" type="text" placeholder="image_id">
+        <label for="">sub_id</label>
+        <input id="inputsub" type="text" placeholder="sub_id">
+        <label id="lblmessage" for=""></label>
+        <button id="addnew">Add</button>
+    </div>
+    <script src="./build/js/bundle.js"></script>
+</body>
+
+</html>
