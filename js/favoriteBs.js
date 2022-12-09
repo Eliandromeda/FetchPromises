@@ -11,6 +11,7 @@ export class FavoriteBs {
     };
 
     buildHtmlFavorite(favorite) {
+        console.log('sss');
         return `<div>${favorite.id} ${favorite.user_id} ${favorite.image_id} ${favorite.sub_id}</div>`;
     };
 
